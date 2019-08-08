@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  width: 100vw;
+  height: 100vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor .titulo {
+  font-size: 50px;
+}
+
+.contenedor .todo {
+  position: relative;
+  width: 50%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.contenedor .todo .barra {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+.contenedor .todo .barra .entradatexto {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  padding: 10px 20px;
+}
+
+.contenedor .todo .barra .butonsel {
+  position: relative;
+  width: 20%;
+  height: 100%;
+}
+
+.contenedor .lista {
+  margin-top: -150px;
+  width: 50%;
+  height: 100px;
+  position: relative;
+}
+
+.contenedor .lista .tarea {
+  position: relative;
+  border: 1px solid gray;
+  width: 100%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+}
+
+.contenedor .lista .tarea input {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */
